@@ -35,7 +35,7 @@ app.post('/listUsers', function (req, res) {
     	.query('INSERT INTO users ("name") VALUES (\''+req.body.username+'\')')
 
     });
-    res.end("Szia"+ req.body.username);
+    res.end("Welcome "+ req.body.username);
     
 })
 
